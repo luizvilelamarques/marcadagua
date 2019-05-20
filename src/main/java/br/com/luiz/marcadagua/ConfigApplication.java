@@ -14,6 +14,17 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *  
  *  chrome (local docker tool box): http://192.168.99.100:8080/pdf/download
  *  
+ *  
+ *  
+ *  deploy heroku:
+ *  
+ *  heroku login
+ *  heroku container:login
+ *  heroku create 
+ *  heroku container:push web (build)
+ *  heroku container:release web (deploy)
+ *  heroku open
+ *  
  * @author Luiz
  *
  */
