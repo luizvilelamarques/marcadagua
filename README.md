@@ -1,7 +1,7 @@
 # marcadagua
 
 
-deploy (maven docker): /n
+deploy (maven docker): </br>
 build image: 'mvn install dockerfile:build'
 push image:  'mvn install dockerfile:push'
 
